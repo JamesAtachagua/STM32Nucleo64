@@ -23,3 +23,22 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/james
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-05-13 01:32:36.724
 !MESSAGE Indexed 'BlinkLed' (23 sources, 104 headers) in 2.78 sec: 7,775 declarations; 30,028 references; 2 unresolved inclusions; 29 syntax errors; 147 unresolved names (0.39 %)
+!SESSION 2021-05-13 02:40:35.300 -----------------------------------------------
+eclipse.buildId=Version 1.6.1
+java.version=11.0.9.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_PE
+Framework arguments:  -keyring /Users/jamesatachagua/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/jamesatachagua/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-05-13 02:41:49.873
+!MESSAGE Log4j initialized with config file /Users/jamesatachagua/Desktop/Proyectos/STM32CubeIDE/github/STM32Nucleo64/lab1/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.core.net 1 0 2021-05-13 02:41:51.730
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-05-13 02:41:55.641
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-05-13 02:41:56.038
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties

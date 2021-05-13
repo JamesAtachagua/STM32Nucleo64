@@ -3,3 +3,684 @@
 
 2021-05-13 01:28:31,804 [INFO] Activator:171 - !SESSION log4j initialized
 2021-05-13 01:28:32,620 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2021-05-13 02:24:01,807 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-05-13 02:24:03,416 [INFO] ApplicationProperties:181 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236
+2021-05-13 02:24:03,430 [INFO] DbMcusXml:74 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//mcu/
+2021-05-13 02:24:03,435 [INFO] DbBoardsPdsc:56 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/boardmanager/
+2021-05-13 02:24:03,435 [INFO] DbMcus:258 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/mcufinder/images/
+2021-05-13 02:24:03,436 [INFO] DbBoards:264 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/mcufinder/images/
+2021-05-13 02:24:03,439 [INFO] DbExamples:333 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/mcufinder/images/
+2021-05-13 02:24:03,446 [INFO] DbMcusAds:85 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,448 [INFO] DbMcusDocs:110 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,451 [INFO] DbMcusJson:65 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,452 [INFO] DbBoardsDocs:110 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,453 [INFO] DbBoardsJson:58 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,655 [INFO] CrossReferenceDbSqlite:196 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/cs/
+2021-05-13 02:24:03,660 [INFO] DbExamplesSqlite:690 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,784 [INFO] RulesReader:52 - Compatibility file has been processed (237 Rules)
+2021-05-13 02:24:03,869 [INFO] MicroXplorer:622 - Detected Java Version = 11.0.9.1
+2021-05-13 02:24:03,870 [INFO] DbMcusXml:74 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//mcu/
+2021-05-13 02:24:03,871 [INFO] DbBoardsPdsc:56 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/boardmanager/
+2021-05-13 02:24:03,871 [INFO] DbMcus:258 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/mcufinder/images/
+2021-05-13 02:24:03,871 [INFO] DbBoards:264 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/mcufinder/images/
+2021-05-13 02:24:03,872 [INFO] DbExamples:333 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/mcufinder/images/
+2021-05-13 02:24:03,872 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:03,873 [INFO] DbMcusAds:85 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,873 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:03,873 [INFO] DbMcusDocs:110 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,874 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:03,874 [INFO] DbMcusJson:65 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,874 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:03,875 [INFO] DbBoardsDocs:110 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,875 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:03,875 [INFO] DbBoardsJson:58 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,876 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:03,876 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:03,877 [INFO] CrossReferenceDbSqlite:196 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/cs/
+2021-05-13 02:24:03,877 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:03,877 [INFO] DbExamplesSqlite:690 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:03,945 [INFO] MainPanel:204 - HeapMemory: 408944640
+2021-05-13 02:24:04,036 [INFO] DbMcusXml:74 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//mcu/
+2021-05-13 02:24:04,037 [INFO] DbBoardsPdsc:56 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/boardmanager/
+2021-05-13 02:24:04,037 [INFO] DbMcus:258 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/mcufinder/images/
+2021-05-13 02:24:04,037 [INFO] DbBoards:264 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/mcufinder/images/
+2021-05-13 02:24:04,038 [INFO] DbExamples:333 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//plugins/mcufinder/images/
+2021-05-13 02:24:04,039 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:04,039 [INFO] DbMcusAds:85 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:04,039 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:04,040 [INFO] DbMcusDocs:110 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:04,040 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:04,040 [INFO] DbMcusJson:65 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:04,041 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:04,041 [INFO] DbBoardsDocs:110 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:04,042 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:04,042 [INFO] DbBoardsJson:58 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:04,042 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:04,043 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:04,043 [INFO] CrossReferenceDbSqlite:196 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/cs/
+2021-05-13 02:24:04,044 [WARN] DbFile:35 - Overriding database path with different value: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder/ => /Users/jamesatachagua/.stmcufinder/plugins/mcufinder
+2021-05-13 02:24:04,044 [INFO] DbExamplesSqlite:690 - Set database path to: /Users/jamesatachagua/.stmcufinder/plugins/mcufinder//mcu/
+2021-05-13 02:24:04,061 [INFO] ApplicationProperties:181 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236
+2021-05-13 02:24:04,063 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2021-05-13 02:24:04,064 [INFO] PluginManage:292 - Check plugin analytics
+2021-05-13 02:24:04,500 [INFO] AnalyticsPlugin:233 - Accepted Software Licenses: 
+2021-05-13 02:24:04,501 [INFO] AnalyticsPlugin:235 - Accepted CMSIS Pack Licenses: 
+2021-05-13 02:24:04,502 [INFO] AnalyticsPlugin:237 - Accepted Firmware Licenses: 
+2021-05-13 02:24:04,504 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-05-13 02:24:04,505 [INFO] PluginManage:292 - Check plugin clock
+2021-05-13 02:24:04,518 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2021-05-13 02:24:04,519 [INFO] PluginManage:292 - Check plugin ddr
+2021-05-13 02:24:04,522 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-05-13 02:24:04,523 [INFO] PluginManage:292 - Check plugin filemanager
+2021-05-13 02:24:04,675 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-05-13 02:24:04,676 [INFO] PluginManage:292 - Check plugin ipmanager
+2021-05-13 02:24:04,682 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-05-13 02:24:04,683 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2021-05-13 02:24:04,693 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-05-13 02:24:04,694 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2021-05-13 02:24:04,721 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-05-13 02:24:04,722 [INFO] PluginManage:292 - Check plugin power
+2021-05-13 02:24:04,734 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2021-05-13 02:24:04,735 [INFO] PluginManage:292 - Check plugin projectmanager
+2021-05-13 02:24:04,752 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-05-13 02:24:04,752 [INFO] PluginManage:292 - Check plugin thirdparty
+2021-05-13 02:24:04,869 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-05-13 02:24:04,869 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-05-13 02:24:04,869 [INFO] PluginManage:292 - Check plugin tools
+2021-05-13 02:24:04,870 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-05-13 02:24:04,871 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [1/15]
+2021-05-13 02:24:04,873 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2021-05-13 02:24:04,873 [INFO] PluginManage:292 - Check plugin tutovideos
+2021-05-13 02:24:05,121 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2021-05-13 02:24:05,122 [INFO] PluginManage:292 - Check plugin updater
+2021-05-13 02:24:05,136 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2021-05-13 02:24:05,137 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2021-05-13 02:24:05,911 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-05-13 02:24:05,992 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:05,994 [INFO] PluginManager:203 - loadIPPluginJar : add mdma
+2021-05-13 02:24:06,004 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,005 [INFO] PluginManager:203 - loadIPPluginJar : add freertos
+2021-05-13 02:24:06,013 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,014 [INFO] PluginManager:203 - loadIPPluginJar : add gic
+2021-05-13 02:24:06,026 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,027 [INFO] PluginManager:203 - loadIPPluginJar : add adc
+2021-05-13 02:24:06,031 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,031 [INFO] PluginManager:203 - loadIPPluginJar : add gtzc
+2021-05-13 02:24:06,034 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,034 [INFO] PluginManager:203 - loadIPPluginJar : add quadspi
+2021-05-13 02:24:06,038 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,038 [INFO] PluginManager:203 - loadIPPluginJar : add aes
+2021-05-13 02:24:06,042 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,043 [INFO] PluginManager:203 - loadIPPluginJar : add pdm2pcm
+2021-05-13 02:24:06,046 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,047 [INFO] PluginManager:203 - loadIPPluginJar : add hash
+2021-05-13 02:24:06,049 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,050 [INFO] PluginManager:203 - loadIPPluginJar : add tim
+2021-05-13 02:24:06,052 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,052 [INFO] PluginManager:203 - loadIPPluginJar : add tsc
+2021-05-13 02:24:06,054 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,055 [INFO] PluginManager:203 - loadIPPluginJar : add ts
+2021-05-13 02:24:06,059 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,059 [INFO] PluginManager:203 - loadIPPluginJar : add can
+2021-05-13 02:24:06,063 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,063 [INFO] PluginManager:203 - loadIPPluginJar : add dfsdm
+2021-05-13 02:24:06,067 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,067 [INFO] PluginManager:203 - loadIPPluginJar : add spi
+2021-05-13 02:24:06,071 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,073 [INFO] PluginManager:203 - loadIPPluginJar : add gfxmmu
+2021-05-13 02:24:06,075 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,076 [INFO] PluginManager:203 - loadIPPluginJar : add genericplugin
+2021-05-13 02:24:06,078 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,079 [INFO] PluginManager:203 - loadIPPluginJar : add cryp
+2021-05-13 02:24:06,085 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,087 [INFO] PluginManager:203 - loadIPPluginJar : add gpio
+2021-05-13 02:24:06,089 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,090 [INFO] PluginManager:203 - loadIPPluginJar : add comp
+2021-05-13 02:24:06,092 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,093 [INFO] PluginManager:203 - loadIPPluginJar : add tracer_emb
+2021-05-13 02:24:06,096 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,097 [INFO] PluginManager:203 - loadIPPluginJar : add openamp
+2021-05-13 02:24:06,102 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,102 [INFO] PluginManager:203 - loadIPPluginJar : add stm32_wpan
+2021-05-13 02:24:06,109 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,112 [INFO] PluginManager:203 - loadIPPluginJar : add plateformsettings
+2021-05-13 02:24:06,116 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,117 [INFO] PluginManager:203 - loadIPPluginJar : add ipddr
+2021-05-13 02:24:06,120 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,121 [INFO] PluginManager:203 - loadIPPluginJar : add usart
+2021-05-13 02:24:06,123 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,123 [INFO] PluginManager:203 - loadIPPluginJar : add ltdc
+2021-05-13 02:24:06,129 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,130 [INFO] PluginManager:203 - loadIPPluginJar : add nvic
+2021-05-13 02:24:06,132 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,133 [INFO] PluginManager:203 - loadIPPluginJar : add fatfs
+2021-05-13 02:24:06,141 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,142 [INFO] PluginManager:203 - loadIPPluginJar : add dma
+2021-05-13 02:24:06,147 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,148 [INFO] PluginManager:203 - loadIPPluginJar : add fmc
+2021-05-13 02:24:06,152 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,153 [INFO] PluginManager:203 - loadIPPluginJar : add i2s
+2021-05-13 02:24:06,155 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,156 [INFO] PluginManager:203 - loadIPPluginJar : add ucpd
+2021-05-13 02:24:06,159 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,160 [INFO] PluginManager:203 - loadIPPluginJar : add lorawan
+2021-05-13 02:24:06,164 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,164 [INFO] PluginManager:203 - loadIPPluginJar : add opamp
+2021-05-13 02:24:06,169 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,169 [INFO] PluginManager:203 - loadIPPluginJar : add touchsensing
+2021-05-13 02:24:06,173 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,173 [INFO] PluginManager:203 - loadIPPluginJar : add i2c
+2021-05-13 02:24:06,178 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,179 [INFO] PluginManager:203 - loadIPPluginJar : add resmgrutility
+2021-05-13 02:24:06,183 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:06,183 [INFO] PluginManager:203 - loadIPPluginJar : add sai
+2021-05-13 02:24:06,538 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-05-13 02:24:06,705 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-05-13 02:24:06,710 [INFO] DbMcusAds:132 - JSON generation date=Tue May 11 12:32:50 BRT 2021 (1620747170044)
+2021-05-13 02:24:06,711 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-05-13 02:24:06,831 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2021-05-13 02:24:07,048 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-05-13 02:24:07,052 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-05-13 02:24:07,052 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-05-13 02:24:07,053 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2021-05-13 02:24:07,056 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-05-13 02:24:07,088 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-05-13 02:24:07,089 [WARN] ThirdParty:796 - waiting for thirdparty lock release [close project]
+2021-05-13 02:24:07,876 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [2/15]
+2021-05-13 02:24:10,881 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-05-13 02:24:10,882 [ERROR] AbstractThirdPartyUpdaterManager:153 - class java.lang.Integer cannot be cast to class java.util.List (java.lang.Integer and java.util.List are in module java.base of loader 'bootstrap')
+2021-05-13 02:24:10,883 [INFO] ThirdParty:900 - Integrity check success = false
+2021-05-13 02:24:10,883 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-05-13 02:24:10,884 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-05-13 02:24:10,884 [INFO] ThirdParty:798 - entering critical section [close project]
+2021-05-13 02:24:10,887 [INFO] ThirdParty:809 - exiting critical section [close project]
+2021-05-13 02:24:10,890 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-05-13 02:24:10,891 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-05-13 02:24:10,899 [ERROR] Updater:1065 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2021-05-13 02:24:10,901 [INFO] Updater:1002 - Updater Version found : 6.2.1
+2021-05-13 02:24:10,926 [INFO] ApplicationProperties:181 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236
+2021-05-13 02:24:12,634 [INFO] MainUpdater:2661 - connection check result : 10
+2021-05-13 02:24:12,636 [INFO] MainUpdater:255 - Updater Check For Update Now.
+2021-05-13 02:24:12,637 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.21
+2021-05-13 02:24:12,678 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2021-05-13 02:24:12,743 [INFO] MainUpdater:2661 - connection check result : 10
+2021-05-13 02:24:12,744 [INFO] MainUpdater:2661 - connection check result : 10
+2021-05-13 02:24:13,307 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-05-13 02:24:13,308 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.21
+2021-05-13 02:24:13,308 [WARN] ThirdParty:796 - waiting for thirdparty lock release [close project]
+2021-05-13 02:24:13,309 [INFO] ThirdParty:798 - entering critical section [close project]
+2021-05-13 02:24:13,309 [INFO] ThirdParty:809 - exiting critical section [close project]
+2021-05-13 02:24:13,312 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-05-13 02:24:13,314 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 199765360 Bytes (408944640)
+2021-05-13 02:24:13,315 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-05-13 02:24:13,316 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.21
+2021-05-13 02:24:13,316 [INFO] OpenFileManager:303 - Change cursor
+2021-05-13 02:24:13,329 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-05-13 02:24:13,330 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-05-13 02:24:13,398 [WARN] PackLoader:226 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2021-05-13 02:24:13,414 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0
+2021-05-13 02:24:13,424 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.0.0
+2021-05-13 02:24:13,431 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.0
+2021-05-13 02:24:13,437 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.2
+2021-05-13 02:24:13,604 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.4.0.0
+2021-05-13 02:24:13,619 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.1.0.0
+2021-05-13 02:24:13,651 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.1.0.0
+2021-05-13 02:24:13,700 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.8.3.0
+2021-05-13 02:24:13,832 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.1.0.0
+2021-05-13 02:24:13,835 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.6.0.0
+2021-05-13 02:24:13,843 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.2.0
+2021-05-13 02:24:13,848 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.5.2.0
+2021-05-13 02:24:13,853 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.1.0
+2021-05-13 02:24:13,857 [WARN] PackLoader:226 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.4.7.0
+2021-05-13 02:24:13,860 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.16.1
+2021-05-13 02:24:13,861 [INFO] ThirdParty:900 - Integrity check success = true
+2021-05-13 02:24:13,861 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-05-13 02:24:13,862 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-05-13 02:24:15,344 [INFO] Context:587 - Trying to add GPIOservice into a context  which must be forbidden
+2021-05-13 02:24:15,838 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-05-13 02:24:15,839 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-05-13 02:24:15,840 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-05-13 02:24:15,843 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,844 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,844 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,845 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,845 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,846 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,846 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,846 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,847 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,847 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,847 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,848 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,848 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,848 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,849 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,849 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,849 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,850 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,850 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,850 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,851 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,851 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,851 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,852 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,852 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,853 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,853 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-05-13 02:24:15,859 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-05-13 02:24:15,859 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-05-13 02:24:15,860 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-05-13 02:24:15,866 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-05-13 02:24:15,866 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-05-13 02:24:15,990 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-05-13 02:24:15,991 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-05-13 02:24:15,992 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-05-13 02:24:16,000 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-05-13 02:24:16,001 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-05-13 02:24:16,002 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-05-13 02:24:16,002 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-05-13 02:24:16,003 [WARN] ModelIntegratedComponent:182 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-05-13 02:24:16,006 [WARN] ApiManager:294 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-05-13 02:24:16,007 [WARN] ApiManager:294 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-05-13 02:24:16,007 [WARN] ApiManager:294 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-05-13 02:24:16,008 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.1.0: no header file found
+2021-05-13 02:24:16,009 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.0: no header file found
+2021-05-13 02:24:16,010 [WARN] ApiManager:294 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.2: no header file found
+2021-05-13 02:24:16,012 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.0: no header file found
+2021-05-13 02:24:16,554 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC) currently not set
+2021-05-13 02:24:16,555 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC) currently not set
+2021-05-13 02:24:16,555 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC) currently not set
+2021-05-13 02:24:16,556 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC) currently not set
+2021-05-13 02:24:16,556 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC) currently not set
+2021-05-13 02:24:16,557 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC) currently not set
+2021-05-13 02:24:16,557 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC) currently not set
+2021-05-13 02:24:16,558 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC) currently not set
+2021-05-13 02:24:16,559 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2021-05-13 02:24:16,560 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2021-05-13 02:24:16,561 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIMFreq_Value)
+2021-05-13 02:24:16,561 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (USBOutput)
+2021-05-13 02:24:16,710 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 188679984 Bytes (408944640)
+2021-05-13 02:24:16,712 [INFO] DbMcusXml:100 - Load MCU database from /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db//mcu/families.xml
+2021-05-13 02:24:17,615 [INFO] DbMcusJson:94 - JSON generation date=Mon Feb 08 10:35:07 BRT 2021 (1612791307)
+2021-05-13 02:24:18,370 [INFO] DbMcus:175 - Found 1906 MCUs (1866 are supported by CubeMX, 1866 are visible in CubeMX)
+2021-05-13 02:24:18,372 [INFO] ApiDb:251 - Load user favorites file /Users/jamesatachagua/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-05-13 02:24:18,373 [INFO] ApiDb:255 - User favorites MCUs=[]
+2021-05-13 02:24:18,373 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2021-05-13 02:24:18,378 [WARN] ThirdParty:762 - waiting for thirdparty lock release [change project]
+2021-05-13 02:24:18,379 [INFO] ThirdParty:764 - entering critical section [change project]
+2021-05-13 02:24:18,379 [INFO] ThirdParty:952 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2021-05-13 02:24:18,380 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2021-05-13 02:24:18,380 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-05-13 02:24:18,381 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-05-13 02:24:18,381 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-05-13 02:24:18,381 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-05-13 02:24:18,382 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-05-13 02:24:18,382 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2021-05-13 02:24:18,382 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 1.0.0
+2021-05-13 02:24:18,382 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 1.0.0
+2021-05-13 02:24:18,383 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-05-13 02:24:18,383 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2021-05-13 02:24:18,383 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.3.0
+2021-05-13 02:24:18,384 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2021-05-13 02:24:18,384 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-05-13 02:24:18,384 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-05-13 02:24:18,384 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-05-13 02:24:18,385 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2021-05-13 02:24:18,385 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2021-05-13 02:24:18,385 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2021-05-13 02:24:18,386 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-05-13 02:24:18,386 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-05-13 02:24:18,386 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.0
+2021-05-13 02:24:18,387 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-05-13 02:24:18,387 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2021-05-13 02:24:18,387 [INFO] ThirdParty:952 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2021-05-13 02:24:18,387 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.1
+2021-05-13 02:24:18,388 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-05-13 02:24:18,388 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-05-13 02:24:18,388 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-05-13 02:24:18,389 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2021-05-13 02:24:18,389 [INFO] ThirdParty:770 - exiting critical section [change project]
+2021-05-13 02:24:18,768 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-05-13 02:24:18,769 [INFO] PinOutPanel:1435 - setPackage(STM32L152RETx,LQFP64)
+2021-05-13 02:24:19,238 [INFO] UtilMem:74 - Before build in PCC Used Memory: 244674632 Bytes (464519168)
+2021-05-13 02:24:19,616 [INFO] SharedServices:72 - Folder for power plug-in: /Users/jamesatachagua/.stm32cubemx/plugins/power
+2021-05-13 02:24:19,655 [INFO] SharedServices:72 - Folder for power plug-in: /Users/jamesatachagua/.stm32cubemx/plugins/power
+2021-05-13 02:24:19,700 [INFO] SharedServices:72 - Folder for power plug-in: /Users/jamesatachagua/.stm32cubemx/plugins/power
+2021-05-13 02:24:19,706 [INFO] SharedServices:72 - Folder for power plug-in: /Users/jamesatachagua/.stm32cubemx/plugins/power
+2021-05-13 02:24:19,895 [INFO] UtilMem:74 - After build in PCC Used Memory: 306540616 Bytes (464519168)
+2021-05-13 02:24:19,917 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,918 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,918 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,919 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,919 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,920 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,921 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,921 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,922 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,922 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,923 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,923 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,924 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,924 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,925 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,925 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,926 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,926 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,927 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,928 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,928 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,929 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,929 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,930 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,930 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,930 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,931 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,931 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,931 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,932 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,932 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,932 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,933 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,933 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,933 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,934 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,934 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,935 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,935 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,936 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,937 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,938 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,938 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-05-13 02:24:19,972 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-05-13 02:24:20,062 [INFO] OpenFileManager:323 - Restore cursor
+2021-05-13 02:29:40,557 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 319216256 Bytes (464519168)
+2021-05-13 02:29:43,084 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 329396976 Bytes (464519168)
+2021-05-13 02:30:31,053 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 355918464 Bytes (464519168)
+2021-05-13 02:30:32,513 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-05-13 02:30:32,513 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RTC
+2021-05-13 02:30:32,514 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-05-13 02:30:32,514 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-05-13 02:30:32,514 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-05-13 02:30:32,514 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-05-13 02:30:32,515 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-05-13 02:30:32,515 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-05-13 02:30:32,522 [INFO] CodeGenerator:641 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db/
+2021-05-13 02:30:33,100 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/license.tmp_save
+2021-05-13 02:30:33,516 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/license.tmp
+2021-05-13 02:30:33,647 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/gpio.tmp_save
+2021-05-13 02:30:33,779 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/gpio.tmp
+2021-05-13 02:30:34,093 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:30:34,094 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:30:34,127 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma.tmp_save
+2021-05-13 02:30:34,226 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma.tmp
+2021-05-13 02:30:34,238 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma_GV.tmp_save
+2021-05-13 02:30:34,325 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma_GV.tmp
+2021-05-13 02:30:34,333 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:30:34,334 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:30:34,373 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_it.c_save
+2021-05-13 02:30:34,575 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_it.c
+2021-05-13 02:30:34,671 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_it.h_save
+2021-05-13 02:30:34,825 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_it.h
+2021-05-13 02:30:34,880 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_hal_msp.c_save
+2021-05-13 02:30:35,117 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_hal_msp.c
+2021-05-13 02:30:35,149 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/system.tmp_save
+2021-05-13 02:30:35,258 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/system.tmp
+2021-05-13 02:30:35,308 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_hal_conf.h_save
+2021-05-13 02:30:35,459 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_hal_conf.h
+2021-05-13 02:30:35,561 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/main.h_save
+2021-05-13 02:30:35,834 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/main.h
+2021-05-13 02:30:35,886 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/main.c_save
+2021-05-13 02:30:36,270 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/main.c
+2021-05-13 02:30:38,811 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 1546mS.
+2021-05-13 02:30:38,819 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-05-13 02:30:39,365 [INFO] ConfigFileManager:1242 - The Die is : DIE437
+2021-05-13 02:30:39,381 [INFO] ApiDbMcu:458 - Load IP Config File for FATFS
+2021-05-13 02:30:39,388 [INFO] ApiDbMcu:458 - Load IP Config File for FREERTOS
+2021-05-13 02:30:39,401 [INFO] ApiDbMcu:458 - Load IP Config File for TOUCHSENSING
+2021-05-13 02:30:39,408 [INFO] ApiDbMcu:458 - Load IP Config File for USB_DEVICE
+2021-05-13 02:30:41,704 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2885mS.
+2021-05-13 02:30:41,709 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 4mS.
+2021-05-13 02:30:41,747 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-05-13 02:30:41,752 [INFO] ProjectBuilder:2687 - Suppression de : syscalls.c
+2021-05-13 02:30:41,754 [INFO] ProjectBuilder:2687 - Suppression de : stm32l1xx_it.c
+2021-05-13 02:30:41,757 [INFO] ProjectBuilder:2687 - Suppression de : stm32l1xx_hal_msp.c
+2021-05-13 02:30:41,758 [INFO] ProjectBuilder:2687 - Suppression de : main.c
+2021-05-13 02:30:41,761 [INFO] ProjectBuilder:2687 - Suppression de : sysmem.c
+2021-05-13 02:30:41,762 [INFO] ProjectBuilder:2687 - Suppression de : system_stm32l1xx.c
+2021-05-13 02:33:29,293 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 299072504 Bytes (587202560)
+2021-05-13 02:33:32,439 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 315972328 Bytes (587202560)
+2021-05-13 02:33:35,200 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 372995064 Bytes (587202560)
+2021-05-13 02:33:36,285 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-05-13 02:33:36,285 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RTC
+2021-05-13 02:33:36,286 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-05-13 02:33:36,286 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-05-13 02:33:36,286 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-05-13 02:33:36,286 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-05-13 02:33:36,287 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-05-13 02:33:36,287 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-05-13 02:33:36,293 [INFO] CodeGenerator:641 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db/
+2021-05-13 02:33:36,296 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-05-13 02:33:36,297 [INFO] Argument:280 - 	 sub Args: 
+2021-05-13 02:33:36,297 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-05-13 02:33:36,298 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-05-13 02:33:36,298 [INFO] Argument:278 - Argument : Initvalue: null
+2021-05-13 02:33:36,298 [INFO] Argument:280 - 	 sub Args: 
+2021-05-13 02:33:36,299 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-05-13 02:33:36,299 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-05-13 02:33:36,299 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-05-13 02:33:36,299 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-05-13 02:33:36,300 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-05-13 02:33:36,300 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-05-13 02:33:36,300 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2021-05-13 02:33:36,301 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2021-05-13 02:33:36,301 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2021-05-13 02:33:36,301 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2021-05-13 02:33:36,302 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-05-13 02:33:36,302 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-05-13 02:33:36,302 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-05-13 02:33:36,303 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-05-13 02:33:36,303 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-05-13 02:33:36,303 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-05-13 02:33:36,303 [INFO] Argument:278 - Argument : Statevalue: null
+2021-05-13 02:33:36,303 [INFO] Argument:288 - Argument : Statevalue: null
+2021-05-13 02:33:36,304 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-05-13 02:33:36,304 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-05-13 02:33:36,304 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-05-13 02:33:36,304 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-05-13 02:33:36,304 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-05-13 02:33:36,304 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-05-13 02:33:36,305 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-05-13 02:33:36,305 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-05-13 02:33:36,305 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-05-13 02:33:36,305 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-05-13 02:33:36,693 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/license.tmp_save
+2021-05-13 02:33:36,801 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/license.tmp
+2021-05-13 02:33:36,863 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/gpio.tmp_save
+2021-05-13 02:33:36,951 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/gpio.tmp
+2021-05-13 02:33:37,022 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:33:37,023 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:33:37,053 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma.tmp_save
+2021-05-13 02:33:37,132 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma.tmp
+2021-05-13 02:33:37,143 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma_GV.tmp_save
+2021-05-13 02:33:37,213 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma_GV.tmp
+2021-05-13 02:33:37,223 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:33:37,224 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:33:37,259 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_it.c_save
+2021-05-13 02:33:37,419 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_it.c
+2021-05-13 02:33:37,451 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_it.h_save
+2021-05-13 02:33:37,603 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_it.h
+2021-05-13 02:33:37,660 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_hal_msp.c_save
+2021-05-13 02:33:37,847 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_hal_msp.c
+2021-05-13 02:33:37,868 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/system.tmp_save
+2021-05-13 02:33:37,939 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/system.tmp
+2021-05-13 02:33:37,983 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_hal_conf.h_save
+2021-05-13 02:33:38,100 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_hal_conf.h
+2021-05-13 02:33:38,170 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/main.h_save
+2021-05-13 02:33:38,295 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/main.h
+2021-05-13 02:33:38,326 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/main.c_save
+2021-05-13 02:33:38,600 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/main.c
+2021-05-13 02:33:40,656 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 1551mS.
+2021-05-13 02:33:40,660 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-05-13 02:33:40,893 [INFO] ConfigFileManager:1242 - The Die is : DIE437
+2021-05-13 02:33:43,919 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 3259mS.
+2021-05-13 02:33:43,924 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 4mS.
+2021-05-13 02:33:43,944 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-05-13 02:34:03,438 [INFO] Gpio:248 - dependency for GPIO [ADC, RCC, SYS, USART2]
+2021-05-13 02:34:59,483 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 263483832 Bytes (595591168)
+2021-05-13 02:35:01,724 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 274198520 Bytes (595591168)
+2021-05-13 02:35:02,906 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 290975736 Bytes (595591168)
+2021-05-13 02:35:04,310 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-05-13 02:35:04,312 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RTC
+2021-05-13 02:35:04,312 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-05-13 02:35:04,313 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-05-13 02:35:04,314 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-05-13 02:35:04,314 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-05-13 02:35:04,315 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-05-13 02:35:04,315 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-05-13 02:35:04,322 [INFO] CodeGenerator:641 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db/
+2021-05-13 02:35:04,325 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-05-13 02:35:04,326 [INFO] Argument:280 - 	 sub Args: 
+2021-05-13 02:35:04,326 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-05-13 02:35:04,326 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-05-13 02:35:04,327 [INFO] Argument:278 - Argument : Initvalue: null
+2021-05-13 02:35:04,327 [INFO] Argument:280 - 	 sub Args: 
+2021-05-13 02:35:04,327 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-05-13 02:35:04,328 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-05-13 02:35:04,328 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-05-13 02:35:04,329 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-05-13 02:35:04,329 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-05-13 02:35:04,329 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-05-13 02:35:04,330 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2021-05-13 02:35:04,330 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2021-05-13 02:35:04,331 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2021-05-13 02:35:04,331 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2021-05-13 02:35:04,332 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-05-13 02:35:04,332 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-05-13 02:35:04,332 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-05-13 02:35:04,333 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-05-13 02:35:04,333 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-05-13 02:35:04,333 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-05-13 02:35:04,333 [INFO] Argument:278 - Argument : Statevalue: null
+2021-05-13 02:35:04,334 [INFO] Argument:288 - Argument : Statevalue: null
+2021-05-13 02:35:04,334 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-05-13 02:35:04,334 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-05-13 02:35:04,335 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-05-13 02:35:04,335 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-05-13 02:35:04,335 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-05-13 02:35:04,335 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-05-13 02:35:04,336 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-05-13 02:35:04,336 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-05-13 02:35:04,336 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-05-13 02:35:04,336 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-05-13 02:35:04,692 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/license.tmp_save
+2021-05-13 02:35:04,769 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/license.tmp
+2021-05-13 02:35:04,823 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/gpio.tmp_save
+2021-05-13 02:35:04,919 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/gpio.tmp
+2021-05-13 02:35:05,023 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:35:05,024 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:35:05,089 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma.tmp_save
+2021-05-13 02:35:05,185 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma.tmp
+2021-05-13 02:35:05,201 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma_GV.tmp_save
+2021-05-13 02:35:05,291 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma_GV.tmp
+2021-05-13 02:35:05,302 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:35:05,304 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:35:05,346 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_it.c_save
+2021-05-13 02:35:05,518 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_it.c
+2021-05-13 02:35:05,544 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_it.h_save
+2021-05-13 02:35:05,703 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_it.h
+2021-05-13 02:35:05,765 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_hal_msp.c_save
+2021-05-13 02:35:06,047 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_hal_msp.c
+2021-05-13 02:35:06,066 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/system.tmp_save
+2021-05-13 02:35:06,148 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/system.tmp
+2021-05-13 02:35:06,203 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_hal_conf.h_save
+2021-05-13 02:35:06,331 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_hal_conf.h
+2021-05-13 02:35:06,400 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/main.h_save
+2021-05-13 02:35:06,602 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/main.h
+2021-05-13 02:35:06,631 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/main.c_save
+2021-05-13 02:35:06,810 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/main.c
+2021-05-13 02:35:08,757 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 1367mS.
+2021-05-13 02:35:08,764 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-05-13 02:35:09,260 [INFO] ConfigFileManager:1242 - The Die is : DIE437
+2021-05-13 02:35:11,502 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2738mS.
+2021-05-13 02:35:11,516 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 10mS.
+2021-05-13 02:35:11,537 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-05-13 02:35:12,900 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,2,42,597x376,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-05-13 02:35:51,662 [INFO] Gpio:248 - dependency for GPIO [ADC, RCC, SYS, USART2]
+2021-05-13 02:36:05,822 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 267150064 Bytes (625999872)
+2021-05-13 02:36:48,578 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 262246552 Bytes (625999872)
+2021-05-13 02:36:49,799 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 310925872 Bytes (625999872)
+2021-05-13 02:36:51,009 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-05-13 02:36:51,010 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RTC
+2021-05-13 02:36:51,010 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-05-13 02:36:51,010 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-05-13 02:36:51,011 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-05-13 02:36:51,011 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-05-13 02:36:51,011 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-05-13 02:36:51,012 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-05-13 02:36:51,019 [INFO] CodeGenerator:641 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.2.1.202103241236//db/
+2021-05-13 02:36:51,025 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-05-13 02:36:51,026 [INFO] Argument:280 - 	 sub Args: 
+2021-05-13 02:36:51,026 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-05-13 02:36:51,027 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-05-13 02:36:51,027 [INFO] Argument:278 - Argument : Initvalue: null
+2021-05-13 02:36:51,027 [INFO] Argument:280 - 	 sub Args: 
+2021-05-13 02:36:51,028 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-05-13 02:36:51,028 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-05-13 02:36:51,028 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-05-13 02:36:51,029 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-05-13 02:36:51,029 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-05-13 02:36:51,029 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-05-13 02:36:51,030 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2021-05-13 02:36:51,030 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2021-05-13 02:36:51,030 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2021-05-13 02:36:51,031 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2021-05-13 02:36:51,031 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-05-13 02:36:51,031 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-05-13 02:36:51,032 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-05-13 02:36:51,032 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-05-13 02:36:51,032 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-05-13 02:36:51,033 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-05-13 02:36:51,033 [INFO] Argument:278 - Argument : Statevalue: null
+2021-05-13 02:36:51,033 [INFO] Argument:288 - Argument : Statevalue: null
+2021-05-13 02:36:51,033 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-05-13 02:36:51,034 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-05-13 02:36:51,034 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-05-13 02:36:51,034 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-05-13 02:36:51,035 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-05-13 02:36:51,035 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-05-13 02:36:51,036 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-05-13 02:36:51,036 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-05-13 02:36:51,036 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-05-13 02:36:51,037 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-05-13 02:36:51,353 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/license.tmp_save
+2021-05-13 02:36:51,421 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/license.tmp
+2021-05-13 02:36:51,473 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/gpio.tmp_save
+2021-05-13 02:36:51,552 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/gpio.tmp
+2021-05-13 02:36:51,621 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:36:51,623 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:36:51,664 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma.tmp_save
+2021-05-13 02:36:51,730 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma.tmp
+2021-05-13 02:36:51,740 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma_GV.tmp_save
+2021-05-13 02:36:51,800 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/dma_GV.tmp
+2021-05-13 02:36:51,810 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:36:51,811 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-13 02:36:51,846 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_it.c_save
+2021-05-13 02:36:51,983 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_it.c
+2021-05-13 02:36:52,008 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_it.h_save
+2021-05-13 02:36:52,121 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_it.h
+2021-05-13 02:36:52,174 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_hal_msp.c_save
+2021-05-13 02:36:52,347 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/stm32l1xx_hal_msp.c
+2021-05-13 02:36:52,365 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/system.tmp_save
+2021-05-13 02:36:52,428 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/MXTmpFiles/system.tmp
+2021-05-13 02:36:52,472 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_hal_conf.h_save
+2021-05-13 02:36:52,591 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/stm32l1xx_hal_conf.h
+2021-05-13 02:36:52,695 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/main.h_save
+2021-05-13 02:36:52,811 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Inc/main.h
+2021-05-13 02:36:52,838 [INFO] CodeEngine:229 - oldGeneratedFile, /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/main.c_save
+2021-05-13 02:36:53,122 [INFO] CodeEngine:247 - Generated code: /Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/Core/Src/main.c
+2021-05-13 02:36:54,886 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 1097mS.
+2021-05-13 02:36:54,891 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-05-13 02:36:55,130 [INFO] ConfigFileManager:1242 - The Die is : DIE437
+2021-05-13 02:36:57,133 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2242mS.
+2021-05-13 02:36:57,137 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 4mS.
+2021-05-13 02:36:57,153 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.

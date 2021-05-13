@@ -1,14 +1,14 @@
-02:07:52 **** Incremental Build of configuration Debug for project BlinkLed ****
+03:05:15 **** Incremental Build of configuration Debug for project BlinkLed ****
 make -j7 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "BlinkLed.elf" @"objects.list"   -mcpu=cortex-m3 -T"/Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/STM32L152RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BlinkLed.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+arm-none-eabi-gcc -o "BlinkLed.elf" @"objects.list"   -mcpu=cortex-m3 -T"/Users/jamesatachagua/Desktop/Proyectos/STM32CubeIDE/github/STM32Nucleo64/lab1/BlinkLed/STM32L152RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BlinkLed.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: BlinkLed.elf
  
 arm-none-eabi-objdump -h -S  BlinkLed.elf  > "BlinkLed.list"
 arm-none-eabi-objcopy  -O binary  BlinkLed.elf  "BlinkLed.bin"
 arm-none-eabi-size   BlinkLed.elf 
    text	   data	    bss	    dec	    hex	filename
-  18544	    124	   1836	  20504	   5018	BlinkLed.elf
+  17648	    124	   1868	  19640	   4cb8	BlinkLed.elf
 Finished building: default.size.stdout
  
 Finished building: BlinkLed.bin
