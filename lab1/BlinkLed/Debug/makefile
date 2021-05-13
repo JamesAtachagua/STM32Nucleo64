@@ -61,8 +61,8 @@ all: main-build
 main-build: BlinkLed.elf secondary-outputs
 
 # Tool invocations
-BlinkLed.elf: $(OBJS) $(USER_OBJS) /Users/jamesatachagua/Desktop/Proyectos/STM32CubeIDE/BlinkLed/STM32L152RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "BlinkLed.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/Users/jamesatachagua/Desktop/Proyectos/STM32CubeIDE/BlinkLed/STM32L152RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BlinkLed.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+BlinkLed.elf: $(OBJS) $(USER_OBJS) /Volumes/GoogleDrive/Mi\ unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/STM32L152RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "BlinkLed.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/Volumes/GoogleDrive/Mi unidad/2021-1/topicos-sistemas-computacionales/laboratorios/github/STM32Nucleo64/lab1/BlinkLed/STM32L152RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BlinkLed.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -23,6 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "string.h"
+#include <stdlib.h>
 #include <stdio.h>
 /* USER CODE END Includes */
 
@@ -52,6 +53,12 @@ uint8_t tx_buff[] = "HELLO\n\r";
 uint8_t rx_buff[8];
 uint32_t adc_value[3]; //0: IN0, 1: IN1, 2: Temp
 float temp;
+
+static char input_serial[128]="";
+static char flag[5]="";
+static int dummy = 0;
+static char time_[80]="NA";
+int config_time = 30;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -73,6 +80,23 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
 	HAL_UART_Receive_IT(huart, rx_buff, 8); // Init UART Interrupt
 	HAL_UART_Transmit(huart,  (uint8_t *)rx_buff, 8, 1); // ECHO
 	debugPrintln(huart, (char *)rx_buff); // ECHO ver si funciona
+
+	snprintf(input_serial, sizeof(input_serial), (char *)rx_buff);
+	// #30S example
+	if (strlen(input_serial) >= 2){
+	  snprintf(flag, 3, input_serial);
+	}
+	printf("- Flag is: %s", flag);
+	// need to parse #
+
+	// Need to parse the number and convert to int
+	// Also verify if is S: seconds or M: minutes
+	dummy = strlen(input_serial) - 1;
+	strncpy(time_, input_serial + 2, dummy);
+	printf("- Time is: %s", time_);
+
+	itoa(config_time, time_, 10); // decimal number
+	printf("- Time is (decimal): %d", config_time);
 }
 
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
@@ -131,9 +155,14 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    printf("- Time is set to (decimal): %d", config_time);
 	HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
 	debugPrintln(&huart2, "Hello");
 	HAL_Delay(500);
+
+	// Interrupcion para cuando se presione el pulsador
+
+	// Falta ver como encender y apagar el led a cada minuto
   }
   /* USER CODE END 3 */
 }
